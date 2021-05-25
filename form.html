@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="cssForm.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header class="container-fluid">
+            <h1>Fo<span>R</span>um</h1>
+            <p><b>Please fill the forum below !</b></p>
+            </header>
+
+
+<section class="section">
+<form action="post" style="margin: auto; padding-top: 130px;">
+
+<div class="form-group">
+    <label for="name">Your name:</label>
+    <input type="text" name="name" id="name" placeholder="John" class="form-control"/>
+</div>
+
+<div class="form-group">
+    <label for="surname">Your surname:</label>
+    <input type="text" name="surname" id="surname" placeholder="Wick" class="form-control"/>
+</div>
+
+<div class="form-group">
+    <label for="email">Your mail:</label>
+    <input type="email" name="email" id="email" placeholder="abcdf@gmail.com" class="form-control"/>
+</div>
+
+<div class="radio">
+    <p class="p1">Are you :</p>
+    <input type="radio" name="gender" id="male" form="male"/>
+    <label for="male"><span id="masc">Male</span> </label><br>
+    <input type="radio" name="gender" id="female" form="female"/>
+    <label for="female"><span id="fem">Female</span> </label><br>
+    <input type="radio" name="gender" id="other" form="other"/>
+    <label for="other"><span id="other">Other</span> </label>
+</div>
+
+<div class="radio">
+    <p class="p2">Your favorites programming languages :</p>
+    <input type="radio" name="languages" id="java" form="java"/>
+    <label for="java"><span id="java">Java</span></label>  <br> 
+    <input type="radio" name="languages" id="python" form="python"/>
+    <label for="python"><span id="python">Python</span></label>
+</div>
+
+<div class="buttonSubmit">
+<button type="submit" class="btn btn-success">Submit</button>
+</div>
+
+</form>
+</section>
+<footer>
+    <h1><span>B</span>arouni <span>A</span>bir</h1>
+    <div class="Copyright">Copyright © All rights reserved.</div>
+</footer>
+    </body>
+</html>
